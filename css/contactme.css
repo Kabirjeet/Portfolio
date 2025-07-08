@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a2030;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-color: #1a2030;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    z-index: -1;
+    filter: blur(px);
+}
+
+.header{
+    z-index: 1;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
+.header a{
+    color: white;
+}
+
+.header p{
+    font-size: 20px;
+}
+
+.leftinfo{
+    border: 0.5px solid white;
+    border-radius: 30px;
+    background: linear-gradient(#171d45, #191e3a);
+    width: 400px;
+    height: 80vh;
+    /* z-index: -1; */
+    margin-top: 75px;
+    margin-left: 20px;
+    position: fixed;
+}
+
+.profile img{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    z-index: 1;
+    filter: none;
+    height: 100px;
+    width: 100px;
+}
+
+.profile p{
+    color: white;
+    top: 320px;
+    left: 170px;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.intrest_field{
+    color: white;
+    top: 325px !important;
+    position: relative;
+    font-size: 16px !important;
+}
+
+.information{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.contactform{
+    position: relative;
+    color: white;
+    left: 45%;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactformheadings{
+    font-size: 20px;
+}
+
+.contactformfields{
+    width: 350px;
+    margin-left: 40px;
+    background-color: #1a2030;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 0px;
+    color: white;
+    height: 30px;
+}
+
+.msgtxtarea{
+    border-top: 0;
+    margin-left: 20px !important;
+    height: 80px;
+}
+
+.contactformsubmitbtn{
+    margin-left: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 22px;
+}
