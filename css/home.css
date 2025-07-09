@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url('../images/homebackground11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/homebackground11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.taskbar{
+    background-color: #1a2030;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.datetime{
+    color: white;
+    position: fixed;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 40px;
+    width: 90px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.folders{
+    /* background-color: white; */
+    color: white;
+    width: 130px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.folders a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.folder{
+    width: 100px;
+}
