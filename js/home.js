@@ -14,3 +14,17 @@ function updateDateTime() {
 
 updateDateTime();
 setInterval(updateDateTime, 1000);
+
+
+// var slmodal = document.querySelector("slmodal");
+// var slbtn = document.querySelector("slmodalbtn");
+// var closeslspan = document.querySelector("closemodal")[0];
+
+// slbtn.onclick = function(){
+//     slmodal.style.display = 'block';
+// };
+
+// closeslspan.onclick = function(){
+//     slmodal.style.display = 'none';
+// };
+
