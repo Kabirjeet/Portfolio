@@ -98,3 +98,94 @@ body, html{
     /* animation: ; */
     /* color: red; */
 }
+
+.MobileScreen{
+    display: none;
+}
+
+.mobilebgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/Mobile_Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* filter: blur(15px); */
+}
+
+.dynamicisland{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    margin-top: 10px;
+    /* position: fixed; */
+    /* margin-left: 121px; */
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.time{
+    color: white;
+    position: fixed;
+    left: 2px;
+    top: 14px;
+    font-size: 26px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signals{
+    /* background-color: red; */
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.batteryouter{
+    /* background-color: white; */
+    height: 25px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.batteryinner{
+    background-color: white;
+    width: 30px;
+    height: 15px;
+    border-radius: 30px;
+    /* margin: 2.5px; */
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: rgb(138, 106, 213);
+    font-size: 13px;
+    padding-left: 4px;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+}
+
+@media(max-width: 450px){
+    .MobileScreen{
+        display: flex;
+        max-width: 450px;
+    }
+
+    .LaptopScreen{
+        display: none;
+    }
+}
