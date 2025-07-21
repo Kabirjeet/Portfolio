@@ -213,6 +213,52 @@ body, html{
     left: 2%; */
 }
 
+.contactme_mobile{
+    /* background-color: black; */
+    background-image: url('../images/iphone_phone_keypad.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    /* z-index: -1; */
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.phonenum{
+    color: white;
+    font-size: large;
+    padding-top: 150px;
+}
+
+.phoneGreenBtn{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 45px;
+    right: 40%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.backbtn{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+
 @media(max-width: 450px){
     .MobileScreen{
         display: flex;

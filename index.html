@@ -37,8 +37,16 @@
             </div>
             <div class="appdock"></div>
             <div class="appdockicons">
-                    <a href="https://www.youtube.com/"><img src="./images/iphone_phone_icon.webp" class="dockimg" alt="Iphone Phone Icon"></a>
+                    <img src="./images/iphone_phone_icon.webp" class="dockimg" alt="Iphone Phone Icon" onclick="showContactMeMobile()">
                     <img src="./images/iphone_settings_icon.webp" class="dockimg" alt="Iphone Settings Icon">
+            </div>
+
+            <div class="contactme_mobile" id="contactme_mobile" style="display: none;">
+                <button class="backbtn" onclick="hideContactMeMobile()">&lt;</button>
+                <div class="phonenum">
+                    <h1><a href="tel:+919501228879" style="text-decoration: none; color: inherit;">+91 95012 28879</a></h1>
+                </div>
+                <a href="tel:+919501228879" class="phoneGreenBtn"></a>
             </div>
         </div>
     <script src="./js/index.js"></script>
